@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "87bb2ff1-e185-4c7b-91f5-1020df9a3fa5",
+		"name": "UgidotNet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "928805"
+	},
+	"item": [
+		{
+			"name": "Mnimal Api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7280/weatherforecast",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7280",
+					"path": [
+						"weatherforecast"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "client_authentication",
+				"value": "body",
+				"type": "string"
+			},
+			{
+				"key": "state",
+				"value": "{{$randomUUID}}",
+				"type": "string"
+			},
+			{
+				"key": "scope",
+				"value": "https://ugidotnetorg.onmicrosoft.com/e634faa0-c06b-4702-88f3-ae6d93b8b5ee/api.read",
+				"type": "string"
+			},
+			{
+				"key": "clientId",
+				"value": "9c7c3d66-fec9-4af0-b151-4bd9a56139f1",
+				"type": "string"
+			},
+			{
+				"key": "accessTokenUrl",
+				"value": "https://ugidotnetorg.b2clogin.com/ugidotnetorg.onmicrosoft.com/B2C_1_susi/oauth2/v2.0/token",
+				"type": "string"
+			},
+			{
+				"key": "authUrl",
+				"value": "https://ugidotnetorg.b2clogin.com/ugidotnetorg.onmicrosoft.com/B2C_1_susi/oauth2/v2.0/authorize",
+				"type": "string"
+			},
+			{
+				"key": "tokenName",
+				"value": "Azure B2C Postman",
+				"type": "string"
+			},
+			{
+				"key": "useBrowser",
+				"value": true,
+				"type": "boolean"
+			},
+			{
+				"key": "redirect_uri",
+				"value": "",
+				"type": "string"
+			},
+			{
+				"key": "grant_type",
+				"value": "authorization_code_with_pkce",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
