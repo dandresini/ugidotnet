@@ -41,12 +41,12 @@
 			},
 			{
 				"key": "scope",
-				"value": "https://ugidotnetorg.onmicrosoft.com/e634faa0-c06b-4702-88f3-ae6d93b8b5ee/api.read",
+				"value": "https://ugidotnetorg.onmicrosoft.com/mycustomapi/api.read",
 				"type": "string"
 			},
 			{
 				"key": "clientId",
-				"value": "9c7c3d66-fec9-4af0-b151-4bd9a56139f1",
+				"value": "48ea6059-7355-4875-8dd5-f1ef87e3b0c4",
 				"type": "string"
 			},
 			{
